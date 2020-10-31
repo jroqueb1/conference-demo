@@ -11,7 +11,7 @@ import javax.sql.DataSource;
 @Configuration
 public class PersistenceConfiguration  {
 
-    @Autowired
+/*    @Autowired
     private Environment env;
 
     @Bean
@@ -22,6 +22,6 @@ public class PersistenceConfiguration  {
         .password(env.getProperty("spring.datasource.password"));
         System.out.println("My Custom datasource has been initialized!");
         return builder.build();
-    }
+    }*/
 
 }
